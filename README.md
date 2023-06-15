@@ -1,11 +1,11 @@
-About r-leaflet.providers
-=========================
+About r-leaflet.providers-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-leaflet.providers-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rstudio/leaflet.providers
 
 Package license: BSD_2_clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-leaflet.providers-feedstock/blob/main/LICENSE.txt)
 
 Summary: Contains third-party map tile provider information from 'Leaflet.js', <https://github.com/leaflet-extras/leaflet-providers>, to be used with the 'leaflet' R package. Additionally, 'leaflet.providers' enables users to retrieve up-to-date provider information between package updates.
 
