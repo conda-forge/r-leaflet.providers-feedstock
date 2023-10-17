@@ -1,4 +1,4 @@
-{% set version = "1.13.0" %}
+{% set version = "2.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/leaflet.providers_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/leaflet.providers/leaflet.providers_{{ version }}.tar.gz
-  sha256: 104288159995bedb3e652c3e5d4bc2a3fd1d08392a8e5c8152b58c932b862ecb
+  sha256: c5ceeadc8088c9840a8249f0347501cdba0119be97219a01ea2050d1dd4a8666
 
 build:
   merge_build_host: true  # [win]
