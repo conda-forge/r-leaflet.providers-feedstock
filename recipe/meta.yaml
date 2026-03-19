@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "3.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/leaflet.providers_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/leaflet.providers/leaflet.providers_{{ version }}.tar.gz
-  sha256: c5ceeadc8088c9840a8249f0347501cdba0119be97219a01ea2050d1dd4a8666
+  sha256: afea82a78ddd48c63a6ef19ba7ad664639a2fee5d9416d6f4ffb03a2a310f61e
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
